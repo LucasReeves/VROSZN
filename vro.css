@@ -1,0 +1,119 @@
+.dividerone{
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transition: box-shadow 0.5s, border-radius 0.5s;
+}
+.dividerone:hover{
+    border-radius: 90px;
+    box-shadow: 0 0 10px aqua;
+    animation-name: vro;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes vro{
+    10%{color: aqua}
+    20%{color: white}
+    30%{color: black}
+    40%{color: white}
+    50%{color: aqua}
+    60%{color: white}
+    70%{color: black}
+    80%{color: white}
+    90%{color: aqua}
+}
+.dividetwo{
+    padding-bottom: 500px;
+    padding-left: 20px;
+    padding-top: 20px;;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    border-radius: 20px;
+    transition: box-shadow 0.5s;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.dividetwo:hover{
+    box-shadow: 0 0 10px aqua;
+    animation-name: vro2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes vro2{
+    10%{box-shadow: 0 0 20px aqua}
+    40%{box-shadow: 0 0 20px white}
+    50%{box-shadow: 0 0 20px aqua}
+    80%{box-shadow: 0 0 20px white}
+    90%{box-shadow: 0 0 20px aqua}
+}
+.picture{
+    background-image: url("/MAIN/VROIMG.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    transition: box-shadow 0.3s, border-radius 0.3s;
+    border-radius: 10px;;
+
+}
+.picture:hover{
+    box-shadow: 0 0 15px aqua;
+    border-radius: 30px;
+}
+#content{
+    color: black;
+    position: relative;
+    top: 170px;
+    left: -115px;
+    transition: text-shadow 0.3s, color 0.3s;
+}
+#content:hover{
+    text-shadow: 0 0 15px aqua;
+    color: aqua;
+}
+#backtoartists{
+    width: 90px;
+    margin: 20px;
+}
+.end1{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+}
+.backorabout{
+    color: white;
+    padding: 10px;
+}
+#backtoartists{
+    background-color: red;
+    border: none;
+    transition: box-shadow 0.3s, background-color 0.3s, width 0.3s, height 0.3s, border-radius 0.3s;
+}
+#backtoartists:hover{
+    box-shadow: 0 0 15px rgb(0, 255, 0);
+    background-color:rgb(0, 255, 0);
+    border-radius: 90px;
+    width: 120px;
+}
+#backtoartists2{
+    background-color: red;
+    border: none;
+    width: 90px;
+    margin: 20px;
+    transition: box-shadow 0.3s, background-color 0.3s, width 0.3s, height 0.3s, border-radius 0.3s;
+}
+#backtoartists2:hover{
+    box-shadow: 0 0 15px rgb(0, 255, 0);
+    background-color:rgb(0, 255, 0);
+    border-radius: 90px;
+    width: 120px;
+}

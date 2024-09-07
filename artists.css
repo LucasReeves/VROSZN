@@ -1,0 +1,81 @@
+
+.artistslist{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    transition: border 0.3s, box-shadow 0.3s, border-radius 0.3s;
+}
+.artistslist:hover{
+    border: 1px solid rgb(255, 0, 0);
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    border-radius: 50px;
+
+}
+.artist1{
+    position: relative;
+    left: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    color: black;
+    border-radius: 20px;
+    transition: background-color 0.3s, box-shadow 0.3s, width 0.3s, left 0.5s;
+    animation-name: buttons;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+a .artist1{
+    text-decoration: none;
+}
+.artist1:hover{
+    width: 300px;
+    position: relative;
+    left: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+.artist1:active{
+    width: 350px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid white;
+}
+.end{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+#foot{
+    margin: 40px;
+    width: 170px;
+    height: 30px;
+    padding: 20px;
+    background-color: rgb(51, 255, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s, border-radius 0.3s, width 0.3s, height 0.3s;
+}
+.end:hover{
+    border: 1px solid rgb(51, 255, 0);
+    border-radius: 80px;
+    box-shadow: 0 0 10px rgb(51, 255, 0);
+}
+#foot:hover{
+    transform: translateY(-10px) rotate(45deg);
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgb(51, 255, 0);
+    border: 1px solid rgb(51, 255, 0);
+    width: 120px;
+    height: 120px;
+}
