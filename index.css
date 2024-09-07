@@ -1,0 +1,225 @@
+body{
+    font-family: 'Nutino Sans',sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main{
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 0%;
+    display: flex;
+    background-image: url(background.jpg);
+
+}
+#title{
+    font-family:'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    padding: 20px;
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 20px;
+    color: white;
+    text-shadow: 0 0 20px white;
+    transition: text-shadow 0.5s, color 0.5s;
+}
+.IImain{
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: 12%;
+    bottom: 79%;
+    align-items: center;
+    padding-left: 7px;
+    padding-right: -7px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.fa-house{
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+.fa-instagram{
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+.fa-youtube{
+    padding-right: 10px;
+    color: rgb(230, 0, 0);
+    text-decoration: none;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+.fa-x-twitter{
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+.IImainff{
+    border-radius: 20px;
+    background-color: transparent;
+    display:flex;
+    justify-content: center;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    transition: border 0.5s, border-radius 0.5s;
+}
+#btnGENRES{
+    border-radius: 40px;
+    margin: 20px;
+    width: 170px;
+    height: 50px;
+    border: none;
+    background-color: rgb(0, 255, 0);
+    transition: width 0.4s, height 0.4s, box-shadow 0.4s, transform 0.4s, animation-duration 0.4s;
+    animation-name: buttons;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+#btnALLARTISTS{
+    border-radius: 40px;
+    margin: 20px;
+    width: 170px;
+    height: 50px;
+    border: none;
+    background-color: rgb(217, 255, 0);
+    transition: width 0.4s, height 0.4s, box-shadow 0.4s, transform 0.4s;
+    animation-name: buttons;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+#btnALLSONGS{
+    border-radius: 40px;
+    margin: 20px;
+    width: 170px;
+    height: 50px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    transition: width 0.4s, height 0.4s, box-shadow 0.4s, transform 0.4s;
+    animation-name: buttons;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.mainss{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    border-radius: 20px;
+    background-color: transparent;
+
+}
+#btnABOUT{
+    border-radius: 40px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: rgb(0, 204, 255);
+    transition: box-shadow 0.4s, width 0.5s, transform 0.4s;
+}
+#btnGENRES:hover{
+    width:300px;
+    height: 50px;
+    border-radius: 180px;
+    transform: translateY(-20%);
+    box-shadow: 0 0 15px rgb(0, 255, 0);
+
+}
+#btnALLARTISTS:hover{
+    width:300px;
+    height: 50px;
+    border-radius: 180px;
+    transform: translateY(-20%);
+    box-shadow: 0 0 15px rgb(217, 255, 0);
+}
+#btnALLSONGS:hover{
+    width:300px;
+    height: 50px;
+    border-radius: 180px;
+    transform: translateY(-20%);
+    box-shadow: 0 0 15px rgb(255, 0, 0);
+}
+#btnABOUT:hover{
+    width: 600px;
+    box-shadow: 0 0 10px rgb(0, 204, 255);
+    transform: translateY(-15px);
+}
+#title:hover{
+    text-shadow: 0 0 40px cyan;
+    color: cyan;
+    animation-name: buttons;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.fa-house:hover{
+    color: aqua;
+    text-shadow: 0 0 20px aqua;
+    animation-name: buttons;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.fa-instagram:hover{
+    color: rgb(255, 0, 128);
+    text-shadow: 0 0 20px pink;
+    animation-name: buttons;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.fa-youtube:hover{
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 20px rgb(255, 0, 0);
+    animation-name: buttons;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.fa-x-twitter:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 20px rgb(255, 255, 255);
+    margin-bottom: 5%;
+    animation-name: buttons;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.main{
+    transition: border 0.7s, border-radius 0.8s, box-shadow 0.8s, backdrop-filter 0.8s;
+    transition-timing-function: ease-in-out;
+
+}
+.main:hover{
+    border: 1px solid aqua;
+    border-radius: 50px;
+    box-shadow: 0 0 20px aqua;
+    backdrop-filter: blur(20px);
+}
+.buttons:hover{
+    border: 1px solid aqua;
+    box-shadow: 0 0 20px aqua;
+}
+@keyframes buttons{
+    10%{transform: translateY(-3px)}
+    20%{transform: translateY(+3px)}
+    30%{transform: translateY(-3px)}
+    40%{transform: translateY(+3px)}
+    50%{transform: translateY(-3px)}
+    60%{transform: translateY(+3px)}
+    70%{transform: translateY(-3px)}
+    80%{transform: translateY(+3px)}
+    90%{transform: translateY(-3px)}
+    100%{transform: translateY(+3px)}
+}
